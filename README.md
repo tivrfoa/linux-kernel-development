@@ -1,2 +1,4 @@
 # linux-kernel-development
-Things might might help with Linux Kernel Development
+Things which might help with Linux Kernel Development
+
+
