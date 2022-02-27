@@ -49,6 +49,9 @@ The error above happened because it didn't pass the parameter: -m 512
 
 `qemu-system-x86_64 -kernel arch/x86_64/boot/bzImage -initrd ramdisk.img -m 512`
 
+## Exiting Qemu
+
+`Ctrl+A x`
 
 ## Show output on host
 
