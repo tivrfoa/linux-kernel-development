@@ -30,12 +30,12 @@ The errors are (usually) in red.
 
 eg:
 
-<div>
-[    0.653702] Key type encrypted registered<br>
-[    0.654413] AppArmor: AppArmor sha1 policy hashing enabled<br>
-[    0.655910] integrity: Loading X.509 certificate: UEFI:db<br>
-[    0.656597] integrity: <span style="color: red">Problem loading X.509 certificate -65</span><br>
-</div>
+```log
+[    0.653702] Key type encrypted registered
+[    0.654413] AppArmor: AppArmor sha1 policy hashing enabled
+[    0.655910] integrity: Loading X.509 certificate: UEFI:db
+[    0.656597] integrity: Problem loading X.509 certificate -65
+```
 
 Let's find where this 'Problem' message came from:
 
