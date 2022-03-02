@@ -37,6 +37,14 @@ More info here: https://www.kernel.org/doc/Documentation/kbuild/kconfig.rst
 
 `make -j$(nproc)`
 
+## Creating init RAM disk
+
+`mkinitramfs -o ramdisk.img`
+
+>The basic initramfs is the root filesystem image used for booting the kernel provided as a compressed cpio archive.
+
+https://wiki.debian.org/initramfs
+
 ## Running in Qemu
 
 *Run the commands from the Linux folder*
