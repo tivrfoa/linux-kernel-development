@@ -186,7 +186,7 @@ You need to disable `Enable loadable module support` in order to enable Rust.
 
 Compiling: `make LD=/usr/bin/ld.lld-11 LLVM=1 -j7 2> rs-errors.txt`
 
-Compilation worked. The `.config` that I used for that was `rust-config-ok-1`.
+Compilation worked. The `.config` that I used was [rust-config-ok-1](rust-config-ok-1).
 
 ### Running with Qemu
 
