@@ -1,0 +1,389 @@
+net/core/rtnetlink.c:3521:12: warning: stack frame size of 1080 bytes in function 'rtnl_newlink' [-Wframe-larger-than=]
+static int rtnl_newlink(struct sk_buff *skb, struct nlmsghdr *nlh,
+           ^
+1 warning generated.
+drivers/virtio/virtio_balloon.c:497:12: warning: stack frame size of 1160 bytes in function 'init_vqs' [-Wframe-larger-than=]
+static int init_vqs(struct virtio_balloon *vb)
+           ^
+1 warning generated.
+drivers/cpufreq/cpufreq_ondemand.c:416:13: warning: stack frame size of 1072 bytes in function 'od_set_powersave_bias' [-Wframe-larger-than=]
+static void od_set_powersave_bias(unsigned int powersave_bias)
+            ^
+1 warning generated.
+drivers/crypto/ccp/ccp-ops.c:629:1: warning: stack frame size of 1032 bytes in function 'ccp_run_aes_gcm_cmd' [-Wframe-larger-than=]
+ccp_run_aes_gcm_cmd(struct ccp_cmd_queue *cmd_q, struct ccp_cmd *cmd)
+^
+1 warning generated.
+drivers/powercap/dtpm_cpu.c:41:12: warning: stack frame size of 1072 bytes in function 'set_pd_power_limit' [-Wframe-larger-than=]
+static u64 set_pd_power_limit(struct dtpm *dtpm, u64 power_limit)
+           ^
+drivers/powercap/dtpm_cpu.c:129:12: warning: stack frame size of 1064 bytes in function 'update_pd_power_uw' [-Wframe-larger-than=]
+static int update_pd_power_uw(struct dtpm *dtpm)
+           ^
+2 warnings generated.
+die__process_function: tag not supported 0x2f (template_type_parameter)!
+die__process_class: tag not supported 0x33 (variant_part)!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d820e> not handled!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d8278> not handled!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d82e2> not handled!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d834c> not handled!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d83b6> not handled!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d8420> not handled!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d848a> not handled!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d84f4> not handled!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d855e> not handled!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d85c8> not handled!
+die__create_new_enumeration: DW_TAG_subprogram (0x2e) @ <0x42d8632> not handled!
+tag__recode_dwarf_type: couldn't find 0x42d82e2 type for 0x42cd55d (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d820e type for 0x42cd7c8 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42cd9c6 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d834c type for 0x42ce309 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42ce4e9 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8420 type for 0x42ce71d (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d848a type for 0x42ce942 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d84f4 type for 0x42cea4a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d855e type for 0x42cecd6 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d85c8 type for 0x42ceef3 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8632 type for 0x42cf08c (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d84f4 type for 0x42d1afb (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d2135 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d2333 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d250f (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d2713 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d2917 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d2b43 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d2d47 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d2f4b (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d314f (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d3353 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d352f (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d3733 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d3925 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d3ec0 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d40b2 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d42a4 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42d44e0 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d4689 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d482d (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d49d1 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d4b90 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d4d52 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d4f14 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d50d6 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d52a1 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d5463 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d560a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d57ae (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d5952 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d5af6 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d5c9a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d5e9f (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42d6649 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d820e type for 0x42d70a7 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d84f4 type for 0x42d752a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d84f4 type for 0x42d7772 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d84f4 type for 0x42d7a19 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42dea35 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42dec9a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42df1b5 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42e0689 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42e0937 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42e0d6c (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42e0f36 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42e1100 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42e156e (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42e18c0 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42e1a6d (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42e302a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42e33b9 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42e355e (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42f1f84 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d820e type for 0x42f5547 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42f5855 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42f70a3 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42f7272 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42f7441 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42f7610 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42f9c36 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fa9d8 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42fab9c (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fad65 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fb0eb (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fb303 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d84f4 type for 0x42fbcfa (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fbe46 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fbfcd (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d820e type for 0x42fc151 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fc35c (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42fc519 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42fc6a7 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42fc83a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42fca09 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x42fcbd3 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fcd7e (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fcf23 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fd0c8 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fd26d (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fd412 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x42fffc7 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x430143f (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d820e type for 0x4301d55 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d820e type for 0x4301e8b (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x43020e7 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x43023d1 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d820e type for 0x4302b43 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x4303523 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x4303969 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x4303bae (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x4303d50 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x4303f2c (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x43040f7 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x430431d (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x43047e6 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430498f (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4304b37 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4304ce0 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4304e8a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4305034 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x43051de (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4305388 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4305532 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x43056dc (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4305886 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4305a30 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x4305c06 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430633c (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430650d (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x43066fe (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x43068d0 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4306ac1 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4306c93 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4306ec4 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x43070b6 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4307288 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430744b (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430767c (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430786e (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4307a40 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4307c03 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4307dd4 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4307f97 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4308248 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430847a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430866c (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430883e (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4308aef (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4308d21 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4308f13 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x43090e5 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x43092d6 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x43094a8 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4309699 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430994b (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4309b7d (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4309d6f (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x4309f41 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430a2f2 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430a5a4 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430a7d6 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430a9c8 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430ad7a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430b02c (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430b25e (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430b450 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430b682 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430bc34 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430c1e6 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430c598 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430c94a (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430cbfc (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430ceae (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430d160 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430d392 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430d5c4 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430d7f6 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x430f4c9 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x430f67b (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430f838 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d8278 type for 0x430fa09 (inlined_subroutine)!
+tag__recode_dwarf_type: couldn't find 0x42d83b6 type for 0x430fccd (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d82e2 type for 0x42cd55d (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d820e type for 0x42cd7c8 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42cd9c6 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d834c type for 0x42ce309 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42ce4e9 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8420 type for 0x42ce71d (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d848a type for 0x42ce942 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d84f4 type for 0x42cea4a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d855e type for 0x42cecd6 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d85c8 type for 0x42ceef3 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8632 type for 0x42cf08c (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d84f4 type for 0x42d1afb (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d2135 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d2333 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d250f (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d2713 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d2917 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d2b43 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d2d47 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d2f4b (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d314f (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d3353 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d352f (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d3733 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d3925 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d3ec0 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d40b2 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d42a4 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42d44e0 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d4689 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d482d (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d49d1 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d4b90 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d4d52 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d4f14 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d50d6 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d52a1 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d5463 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d560a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d57ae (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d5952 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d5af6 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d5c9a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d5e9f (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42d6649 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d820e type for 0x42d70a7 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d84f4 type for 0x42d752a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d84f4 type for 0x42d7772 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d84f4 type for 0x42d7a19 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42dea35 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42dec9a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42df1b5 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42e0689 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42e0937 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42e0d6c (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42e0f36 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42e1100 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42e156e (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42e18c0 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42e1a6d (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42e302a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42e33b9 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42e355e (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42f1f84 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d820e type for 0x42f5547 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42f5855 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42f70a3 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42f7272 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42f7441 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42f7610 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42f9c36 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fa9d8 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42fab9c (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fad65 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fb0eb (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fb303 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d84f4 type for 0x42fbcfa (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fbe46 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fbfcd (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d820e type for 0x42fc151 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fc35c (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42fc519 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42fc6a7 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42fc83a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42fca09 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x42fcbd3 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fcd7e (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fcf23 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fd0c8 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fd26d (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fd412 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x42fffc7 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x430143f (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d820e type for 0x4301d55 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d820e type for 0x4301e8b (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x43020e7 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x43023d1 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d820e type for 0x4302b43 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x4303523 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x4303969 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x4303bae (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x4303d50 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x4303f2c (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x43040f7 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x430431d (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x43047e6 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430498f (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4304b37 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4304ce0 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4304e8a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4305034 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x43051de (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4305388 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4305532 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x43056dc (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4305886 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4305a30 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x4305c06 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430633c (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430650d (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x43066fe (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x43068d0 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4306ac1 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4306c93 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4306ec4 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x43070b6 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4307288 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430744b (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430767c (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430786e (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4307a40 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4307c03 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4307dd4 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4307f97 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4308248 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430847a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430866c (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430883e (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4308aef (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4308d21 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4308f13 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x43090e5 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x43092d6 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x43094a8 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4309699 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430994b (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4309b7d (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4309d6f (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x4309f41 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430a2f2 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430a5a4 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430a7d6 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430a9c8 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430ad7a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430b02c (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430b25e (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430b450 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430b682 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430bc34 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430c1e6 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430c598 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430c94a (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430cbfc (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430ceae (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430d160 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430d392 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430d5c4 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430d7f6 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x430f4c9 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x430f67b (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430f838 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d8278 type for 0x430fa09 (inlined_subroutine)!
+lexblock__recode_dwarf_types: couldn't find 0x42d83b6 type for 0x430fccd (inlined_subroutine)!
+WARN: multiple IDs found for 'seq_file': 719, 64713 - using 719
+WARN: multiple IDs found for 'file': 381, 64715 - using 381
+WARN: multiple IDs found for 'path': 388, 64718 - using 388
+WARN: multiple IDs found for 'vm_area_struct': 431, 64737 - using 431
+WARN: multiple IDs found for 'task_struct': 580, 64761 - using 580
+WARN: multiple IDs found for 'pt_regs': 82, 65033 - using 82
+WARN: multiple IDs found for 'sock': 2267, 65093 - using 2267
