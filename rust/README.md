@@ -180,9 +180,9 @@ Then run `make LD=/usr/bin/ld.lld-11 LLVM=1 menuconfig` to enable Rust support.
 
 You need to disable `Enable loadable module support` in order to enable Rust.
 
-  . General setup -> Rust support
-  . Kernel hacking -> Rust hacking
-  . Sample kernel code -> Rust samples
+  - General setup -> Rust support
+  - Kernel hacking -> Rust hacking
+  - Sample kernel code -> Rust samples
 
 Compiling: `make LD=/usr/bin/ld.lld-11 LLVM=1 -j7 2> rs-errors.txt`
 
